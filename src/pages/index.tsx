@@ -4,6 +4,48 @@ import Landing from "@/components/Landing";
 import { ProjectCard } from "@/components/ProjectCard";
 import Timeline from "@/components/Timeline";
 import { projects } from "@/public/constants";
+import egypt from "../public/egypt.jpeg";
+import nice from "../public/nice.jpeg";
+import friends from "../public/friends.jpeg";
+import hike from "../public/hike.jpeg";
+import japanFriends from "../public/japanFriends.jpeg";
+import japanSun from "../public/japanSun.jpeg";
+import nyc from "../public/nyc.jpeg";
+import oktober from "../public/oktober.jpeg";
+
+const images = [
+  {
+    src: japanSun,
+    width: 320,
+    height: 212,
+  },
+
+  {
+    src: friends,
+    width: 320,
+    height: 212,
+  },
+  {
+    src: hike,
+    width: 320,
+    height: 212,
+  },
+  {
+    src: japanFriends,
+    width: 320,
+    height: 212,
+  },
+  {
+    src: nyc,
+    width: 320,
+    height: 212,
+  },
+  {
+    src: oktober,
+    width: 320,
+    height: 212,
+  },
+];
 
 export const Home = () => {
   return (
@@ -12,8 +54,8 @@ export const Home = () => {
       <Landing />
       <Timeline />
       <section className="text-center">
-        <h2 className="text-xl">Projects</h2>
-        <div className="grid grid-cols-1 p-4 gap-4 md:grid-cols-2 md:p-8">
+        <h1 className="text-2xl">Projects</h1>
+        <div className="grid grid-cols-1 w-full p-4 gap-4 md:grid-cols-2 md:p-8">
           {projects.map((p) => {
             return (
               <ProjectCard
@@ -26,7 +68,7 @@ export const Home = () => {
             );
           })}
         </div>
-        <Gallery />
+        <Gallery images={images} />
       </section>
     </div>
   );

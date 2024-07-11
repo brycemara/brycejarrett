@@ -21,6 +21,10 @@
     text-wrap: balance;
   }
 }
+
+a {
+  color: white
+}
 body {
   background-color: light-beige;
   color: var(--accent-warm-gray);

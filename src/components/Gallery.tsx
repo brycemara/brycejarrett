@@ -1,36 +1,9 @@
 import Image from "next/image";
-import headshot from "../public/headshots.jpeg";
-import egypt from "../public/egypt.jpeg";
-import ttu from "../public/ttu.jpeg";
-import nice from "../public/IMG_1951.JPG";
 
-const images = [
-  {
-    src: ttu,
-    width: 320,
-    height: 212,
-  },
-  {
-    src: egypt,
-    width: 320,
-    height: 212,
-  },
-  {
-    src: headshot,
-    width: 320,
-    height: 212,
-  },
-  {
-    src: nice,
-    width: 320,
-    height: 212,
-  },
-];
-
-export default function Gallery() {
+export default function Gallery({ images }: any) {
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-4">
-      {images.map((img) => (
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-4 py-24">
+      {images.map((img: any) => (
         <div className="w-full relative pt-[100%]">
           <Image
             src={img.src}

@@ -1,3 +1,6 @@
+import { FaPiggyBank, FaRobot, FaRocket } from "react-icons/fa";
+import { FaCartShopping, FaKitMedical } from "react-icons/fa6";
+
 export const me = {
   who: "Bryce Jarrett",
   what: "Software Engineer, learner, adventurer",
@@ -15,7 +18,7 @@ export const projects: {
 }[] = [
   {
     id: 1,
-    Icon: "FaPiggyBank",
+    Icon: FaPiggyBank,
     name: "Digital Payment Solution 💸",
     description:
       "Technical Architect for a large offshore financial institution to build a new digital wallet with capabilities to manage >100,000 accounts and >300,000 transactions a day",
@@ -23,7 +26,7 @@ export const projects: {
   },
   {
     id: 2,
-    Icon: "FaKitMedical",
+    Icon: FaKitMedical,
     name: "Data Analytics Platform for Pharma Market-Access 💊",
     description:
       "Digitized an Excel model responsible for calculating drug pricing into an interactive platform",
@@ -31,7 +34,7 @@ export const projects: {
   },
   {
     id: 3,
-    Icon: "FaCartShopping",
+    Icon: FaCartShopping,
     name: "D2C E-Commerce 🛍️",
     description:
       "Delivered a net-new Direct-to-Consumer Web App within 3 months with 90th percentile site speed and 24 hour release changes",
@@ -39,14 +42,14 @@ export const projects: {
   },
   {
     id: 4,
-    Icon: "FaRobot",
+    Icon: FaRobot,
     name: "Generative AI 🤖",
     description: "Gen AI something or other",
     tech: "React, Redux, SCSS, LangChain, pgVector",
   },
   {
     id: 5,
-    Icon: "FaRocket",
+    Icon: FaRocket,
     name: "Digitized Process Flow 🚀",
     description:
       "Tech Lead for an engineering squad digitizing a process flow model and visualizing a resource map, reducing bottlenecks in the clients launch processes",
@@ -54,7 +57,7 @@ export const projects: {
   },
   {
     id: 6,
-    Icon: "FaCartShopping",
+    Icon: FaCartShopping,
     name: "B2C E-Commerce 🏬",
     description: "Developed a net-new Business-to-Consumer Web App",
     tech: "Next.js, Tailwinds, TypeScript, Fastify, Platformatic, Azure",

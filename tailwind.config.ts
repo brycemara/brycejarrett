@@ -23,6 +23,7 @@ const config: Config = {
       "light-beige": "#F9F7F2",
       "soft-gray": "#D3D3D3",
       "warm-gray": "#A9A9A9",
+      "dark-gray": "#222731",
       "primary-text": "#323b43",
     },
   },

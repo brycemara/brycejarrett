@@ -5,13 +5,9 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="bg-dark-blue p-4">
+    <header className="bg-dark-gray p-4">
       <div className="flex justify-between">
-        <div className="flex items-center">
-          <Link href="/" className="text-xl text-white font-bold mr-4">
-            Bryce
-          </Link>
-        </div>
+        <div className="flex items-center text-white"></div>
         <div className="flex items-center">
           <Link
             href="https://www.linkedin.com/in/bryce-jarrett/"
