@@ -1,14 +1,13 @@
+import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 import Landing from "@/components/Landing";
 import { ProjectCard } from "@/components/ProjectCard";
 import Timeline from "@/components/Timeline";
 import { projects } from "@/public/constants";
-// import { FaPiggyBank, FaRobot, FaRocket } from "react-icons/fa";
-// import { FaCartShopping, FaKitMedical } from "react-icons/fa6";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="bg-beige">
       <Header />
       <Landing />
       <Timeline />
@@ -27,6 +26,7 @@ export const Home = () => {
             );
           })}
         </div>
+        <Gallery />
       </section>
     </div>
   );
