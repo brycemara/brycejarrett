@@ -7,8 +7,6 @@ import nice from "../public/nice.jpeg";
 import friends from "../public/friends.jpeg";
 import hike from "../public/hike.jpeg";
 import japanFriends from "../public/japanFriends.jpeg";
-import nyc from "../public/nyc.jpeg";
-import oktober from "../public/oktober.jpeg";
 
 const images = [
   {
@@ -65,10 +63,10 @@ const Landing = () => {
               data-aos="fade-left"
               data-aos-delay="300"
             >
-              Software Engineer based in Brooklyn NY. I've been coding in the
-              real world for 3 years now. I am passionate about solving
-              problems, growing from every experience and leaving things better
-              than I found them.
+              Software Engineer keen on Product Develoipment based in Brooklyn
+              NY. I've been coding in the real world for 3 years now. I am
+              passionate about solving problems, growing from every experience
+              and leaving things better than I found them.
             </p>
           </div>
         </div>

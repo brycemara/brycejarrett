@@ -4,14 +4,13 @@ import Landing from "@/components/Landing";
 import { ProjectCard } from "@/components/ProjectCard";
 import Timeline from "@/components/Timeline";
 import { projects } from "@/public/constants";
-import egypt from "../public/egypt.jpeg";
-import nice from "../public/nice.jpeg";
 import friends from "../public/friends.jpeg";
 import hike from "../public/hike.jpeg";
 import japanFriends from "../public/japanFriends.jpeg";
 import japanSun from "../public/japanSun.jpeg";
 import nyc from "../public/nyc.jpeg";
 import oktober from "../public/oktober.jpeg";
+import { TechLine } from "@/components/TechLine";
 
 const images = [
   {
@@ -68,6 +67,7 @@ export const Home = () => {
             );
           })}
         </div>
+        <TechLine />
         <Gallery images={images} />
       </section>
     </div>
