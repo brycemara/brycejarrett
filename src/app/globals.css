@@ -23,30 +23,24 @@
 }
 
 a {
-  color: white
+  color: black
+}
+h1 {
+  font-size: 5rem; /* Equivalent to text-4xl in Tailwind CSS */
+  font-weight: bold;  /* Equivalent to font-bold */
+  color: #1a202c;     /* Equivalent to text-gray-900 */
+}
+h3 {
+  font-size: 1.25rem; /* Equivalent to text-4xl in Tailwind CSS */
+  font-weight: bold;  /* Equivalent to font-bold */
+  color: #1a202c; 
+}
+p {
+  font-size: .75rem; 
+  color: #1a202c; 
 }
 body {
   background-color: light-beige;
   color: var(--accent-warm-gray);
-  font-family: Arial, sans-serif;
+  font-family: "default-font";
 }
-
-/* 
-button {
-  background-color: var(--secondary-light-blue);
-  color: var(--primary-beige);
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: var(--primary-soft-blue);
-}
-
-footer {
-  background-color: var(--accent-soft-gray);
-  color: var(--accent-warm-gray);
-  padding: 10px;
-  text-align: center;
-} */

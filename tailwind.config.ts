@@ -26,6 +26,9 @@ const config: Config = {
       "dark-gray": "#222731",
       "primary-text": "#323b43",
     },
+    fontFamily: {
+      libre: ['"Montserrat Playfair+Display"', "default-font"],
+    },
   },
   plugins: [],
 }
