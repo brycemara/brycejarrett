@@ -25,6 +25,7 @@ const config: Config = {
       "warm-gray": "#A9A9A9",
       "dark-gray": "#222731",
       "primary-text": "#323b43",
+      black: "#000",
     },
     fontFamily: {
       libre: ['"Montserrat Playfair+Display"', "default-font"],

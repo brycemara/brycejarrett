@@ -15,7 +15,7 @@ import { SiDataiku } from "react-icons/si";
 
 export const TechLine = () => {
   return (
-    <div className="flex flex-row w-full justify-evenly">
+    <div className="flex flex-row mx-48 justify-evenly">
       <FaReact size={40} />
       <TbBrandTypescript size={40} />
       <IoLogoJavascript size={40} />

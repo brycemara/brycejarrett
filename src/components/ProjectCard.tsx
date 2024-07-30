@@ -9,7 +9,7 @@ interface Props {
 
 export const ProjectCard = ({ id, Icon, name, description, tech }: Props) => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-black text-light-beige">
       <div
         className="relative flex flex-col items-center p-2 w-full"
         data-aos="fade-up"
@@ -19,10 +19,14 @@ export const ProjectCard = ({ id, Icon, name, description, tech }: Props) => {
         <div className="w-16 h-16 mt-4">
           <Icon size={40} />
         </div>
-        <div className="w-2/3 flex flex-col justify-between h-full">
-          <h2 className="text-lg font-medium mb-2">{name}</h2>
-          <p className="text-base text-center">{description}</p>
-          <p className="mt-auto text-center">{tech}</p>
+        <div className="w-4/5 flex flex-col justify-between items-center h-full text-[#FF]">
+          <h2 className="text-lg font-semibold mb-2">{name}</h2>
+          <p className="text-base text-light-beige font-medium text-center pb-4">
+            {description}
+          </p>
+          <p className="mt-auto text-base text-light-beige text-center">
+            {tech}
+          </p>
         </div>
       </div>
     </div>

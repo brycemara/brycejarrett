@@ -65,3 +65,36 @@ export const projects: {
     tech: "React, TypeScript, MUI, Mapbox, FastAPI, Docker, Postgres DB, AWS EC2",
   },
 ];
+
+export const recentProjects: {
+  id: number;
+  Icon: any; //TODO: type this better
+  name: string;
+  description: string;
+  tech: string;
+}[] = [
+  {
+    id: 3,
+    Icon: FaCartShopping,
+    name: "D2C E-Commerce for MedTech device",
+    description:
+      "Delivered a net-new Direct-to-Consumer Web App within 3 months with 90th percentile site speed and 24 hour release changes",
+    tech: "Next.js, MUI, Azure Functions, Sequelize, MySQL",
+  },
+  {
+    id: 5,
+    Icon: FaRocket,
+    name: "Digitized Rocket Launch Process Flow",
+    description:
+      "Tech Lead for an engineering squad digitizing a process flow model and visualizing a resource map, reducing bottlenecks in the clients launch processes",
+    tech: "React, TypeScript, MUI, Mapbox, FastAPI, Docker, Postgres DB, AWS EC2",
+  },
+  {
+    id: 6,
+    Icon: FaCartShopping,
+    name: "B2C E-Commerce for Healthcare Client",
+    description:
+      "Developed a net-new Business-to-Consumer Web App, Coached client product owner on agile best practices and defining sprint scope and user stories leveraging Azure DevOps",
+    tech: "Next.js, Tailwinds, TypeScript, Fastify, Platformatic, Azure",
+  },
+];
