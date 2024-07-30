@@ -13,7 +13,7 @@ import { SiAzuredevops } from "react-icons/si";
 import { SiMicrosoftazure } from "react-icons/si";
 import { SiDataiku } from "react-icons/si";
 
-export const TechLine = () => {
+export default function TechLine() {
   return (
     <div className="flex flex-row mx-48 justify-evenly">
       <FaReact size={40} />
@@ -32,4 +32,4 @@ export const TechLine = () => {
       <SiDataiku size={40} />
     </div>
   );
-};
+}
