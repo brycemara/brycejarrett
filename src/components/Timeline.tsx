@@ -55,7 +55,7 @@ export default function Timeline() {
               className="w-full h-full top-0 left-0 object-cover"
             />
           </div>
-          <h3>Findig a home</h3>
+          <h3>Finding a Home</h3>
         </div>
         <p>
           After accepting the job at McKinsey Bryce relocated to Denver CO where

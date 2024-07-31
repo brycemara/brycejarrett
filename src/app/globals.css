@@ -44,3 +44,10 @@ body {
   color: var(--accent-warm-gray);
   font-family: "default-font";
 }
+.section-header {
+  font-weight: 600;
+  margin-left: 12rem; 
+  margin-right: 12rem; 
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
