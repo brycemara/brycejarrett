@@ -18,7 +18,7 @@ const Landing = () => {
           most recent experience in management consulting. Bryce is an avid
           traveler, frequent snowboarder, hiker, yogi and animal lover. She's
           passionate about solving problems, growing from every experience and
-          leaving things better than I found them.
+          leaving things better than she found them.
         </p>
       </div>
     </div>
