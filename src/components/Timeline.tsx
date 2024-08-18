@@ -31,7 +31,7 @@ export default function Timeline() {
             <Image
               src={ttu}
               alt="profile"
-              // objectFit="cover"
+              objectFit="cover"
               fill
               className="w-full h-full top-0 left-0 object-cover"
             />
