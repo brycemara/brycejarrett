@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Landing = () => {
   return (
-    <div className="mx-48 flex flex-col md:flex-row ">
+    <div className="mx-24 md:mx-48 flex flex-col lg:flex-row ">
       <Image
         src={headshot}
         alt="profile"
-        className="pt-6 w-full md:w-1/2 h-auto"
+        className="pt-6 w-full lg:w-1/2 h-auto"
       />
       <div className="flex flex-col p-6 items-start">
-        <h1 className="pt-16">
+        <h1 className="md:pt-16">
           Who is <br></br> Bryce Jarrett?
         </h1>
         <p className="text-lg">

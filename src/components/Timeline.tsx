@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Timeline() {
   return (
-    <div className=" mx-48 grid grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-10 pt-6 pb-16">
+    <div className="mx-36 md:mx-48 grid grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-10 pt-6 pb-16">
       <div className="flex flex-col flex-grow">
         <div className="col-span-1 flex flex-col items-center">
           <div className="w-full relative pt-[90%]">
@@ -31,7 +31,7 @@ export default function Timeline() {
             <Image
               src={ttu}
               alt="profile"
-              objectFit="cover"
+              // objectFit="cover"
               fill
               className="w-full h-full top-0 left-0 object-cover"
             />

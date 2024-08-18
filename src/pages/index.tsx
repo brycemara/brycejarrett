@@ -3,6 +3,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 
 // images
 // TODO: find a better way to import these
+import hawaii from "@/public/images/hawaii.jpeg";
 import egypt from "@/public/images/egypt.jpeg";
 import nice from "@/public/images/nice.jpeg";
 import mexico from "@/public/images/mexico.jpeg";
@@ -55,6 +56,10 @@ const travelImages = [
   {
     src: copenhagen,
     title: "Dinner at Noma in Copenhagen, Denmark",
+  },
+  {
+    src: hawaii,
+    title: "Splish spalshing in Kauai",
   },
 ];
 

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaHamburger } from "react-icons/fa";
 
 const Header = () => {
   const scrollToSection = (section: string) => {
@@ -11,9 +11,9 @@ const Header = () => {
     }
   };
   return (
-    <div className="mx-48 pt-6 pb-2 border-b-2 flex flex-row justify-between">
-      <h2 className="text-xl font-bold pl-2">BryceNews</h2>
-      <div className="w-2/5 flex flex-row justify-between pr-2 items-center">
+    <div className="mx-24 md:mx-48 pt-6 pb-2 border-b-2 flex flex-col lg:flex-row items-start lg:justify-between">
+      <h2 className="text-xl font-bold lg:pl-2">BryceNews</h2>
+      <div className="w-2/5 flex flex-col lg:flex-row justify-between pr-2 items-start lg:items-center">
         <button onClick={() => scrollToSection("projects")}>
           <h2>PROJECTS</h2>
         </button>
