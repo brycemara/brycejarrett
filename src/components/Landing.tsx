@@ -14,11 +14,12 @@ const Landing = () => {
           Who is <br></br> Bryce Jarrett?
         </h1>
         <p className="text-lg">
-          A Full-stack Software Engineer keen on product development with her
-          most recent experience in management consulting. Bryce is an avid
-          traveler, frequent snowboarder, hiker, yogi and animal lover. She's
-          passionate about solving problems, growing from every experience and
-          leaving things better than she found them.
+          A Full-stack Software Engineer keen on product development and client
+          relations, currently working in fintech with experience in management
+          consulting. Bryce is an avid traveler, frequent snowboarder, hiker,
+          yogi, and animal lover. She's passionate about solving problems,
+          growing from every experience, and leaving things better than she
+          found them.
         </p>
       </div>
     </div>

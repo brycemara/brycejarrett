@@ -23,9 +23,9 @@ const Header = () => {
         <button onClick={() => scrollToSection("travel")}>
           <h2>TRAVEL</h2>
         </button>
-        <button onClick={() => scrollToSection("flowers")}>
+        {/* <button onClick={() => scrollToSection("flowers")}>
           <h2>FLOWERS</h2>
-        </button>
+        </button> */}
         <div className="flex items-center">
           <Link
             href="https://www.linkedin.com/in/bryce-jarrett/"

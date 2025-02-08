@@ -116,7 +116,7 @@ export const Home = () => {
         </div>
       </div>
       {/* flowers */}
-      <div id={"flowers"} className="py-6 flex flex-col items-center">
+      {/* <div id={"flowers"} className="py-6 flex flex-col items-center">
         <h2 className="self-start section-header">FLOWERS</h2>
         <p className="self-start mx-48 text-lg py-4 mx-48">
           Bryce grew up in a house that was always filled with plants and
@@ -129,7 +129,7 @@ export const Home = () => {
         <div className="w-full">
           <GalleryGrid images={flowerImages} cols={3} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
